@@ -1,0 +1,23 @@
+[package]
+name = "avi_reader_rs"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+windows = { version = "0.61.3", features = [
+    "Win32_Graphics_Gdi",
+    "Win32_Media_Audio",
+    "Win32_Media_Multimedia",
+    "Win32_Foundation",
+    "Win32_System_LibraryLoader",
+    "Win32_UI_WindowsAndMessaging"
+]}
+autocxx = "0.30.0"
+cxx = "1.0"
+
+[build-dependencies]
+autocxx-build = "0.30.0"
+miette = { version = "5", features = ["fancy"] } # optional but gives nicer error messages!
