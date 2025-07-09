@@ -125,59 +125,64 @@ template <> struct deleter_if<true> {
 } // namespace rust
 
 extern "C" {
-::std::string *cxxbridge1$autocxx_make_string_0x41de0a58dea699b5(::rust::Str str_) noexcept {
-  ::std::unique_ptr<::std::string> (*autocxx_make_string_0x41de0a58dea699b5$)(::rust::Str) = ::autocxx_make_string_0x41de0a58dea699b5;
-  return autocxx_make_string_0x41de0a58dea699b5$(str_).release();
+::std::string *cxxbridge1$autocxx_make_string_0xbb8831896a18b3ba(::rust::Str str_) noexcept {
+  ::std::unique_ptr<::std::string> (*autocxx_make_string_0xbb8831896a18b3ba$)(::rust::Str) = ::autocxx_make_string_0xbb8831896a18b3ba;
+  return autocxx_make_string_0xbb8831896a18b3ba$(str_).release();
 }
 
-::INPUT_INFO *cxxbridge1$INPUT_INFO_autocxx_alloc_autocxx_wrapper_0x41de0a58dea699b5() noexcept {
-  ::INPUT_INFO *(*INPUT_INFO_autocxx_alloc_autocxx_wrapper_0x41de0a58dea699b5$)() = ::INPUT_INFO_autocxx_alloc_autocxx_wrapper_0x41de0a58dea699b5;
-  return INPUT_INFO_autocxx_alloc_autocxx_wrapper_0x41de0a58dea699b5$();
+::INPUT_INFO *cxxbridge1$INPUT_INFO_autocxx_alloc_autocxx_wrapper_0xbb8831896a18b3ba() noexcept {
+  ::INPUT_INFO *(*INPUT_INFO_autocxx_alloc_autocxx_wrapper_0xbb8831896a18b3ba$)() = ::INPUT_INFO_autocxx_alloc_autocxx_wrapper_0xbb8831896a18b3ba;
+  return INPUT_INFO_autocxx_alloc_autocxx_wrapper_0xbb8831896a18b3ba$();
 }
 
-void cxxbridge1$INPUT_INFO_autocxx_free_autocxx_wrapper_0x41de0a58dea699b5(::INPUT_INFO *arg0) noexcept {
-  void (*INPUT_INFO_autocxx_free_autocxx_wrapper_0x41de0a58dea699b5$)(::INPUT_INFO *) = ::INPUT_INFO_autocxx_free_autocxx_wrapper_0x41de0a58dea699b5;
-  INPUT_INFO_autocxx_free_autocxx_wrapper_0x41de0a58dea699b5$(arg0);
+void cxxbridge1$INPUT_INFO_autocxx_free_autocxx_wrapper_0xbb8831896a18b3ba(::INPUT_INFO *arg0) noexcept {
+  void (*INPUT_INFO_autocxx_free_autocxx_wrapper_0xbb8831896a18b3ba$)(::INPUT_INFO *) = ::INPUT_INFO_autocxx_free_autocxx_wrapper_0xbb8831896a18b3ba;
+  INPUT_INFO_autocxx_free_autocxx_wrapper_0xbb8831896a18b3ba$(arg0);
 }
 
-::INPUT_PLUGIN_TABLE *cxxbridge1$INPUT_PLUGIN_TABLE_autocxx_alloc_autocxx_wrapper_0x41de0a58dea699b5() noexcept {
-  ::INPUT_PLUGIN_TABLE *(*INPUT_PLUGIN_TABLE_autocxx_alloc_autocxx_wrapper_0x41de0a58dea699b5$)() = ::INPUT_PLUGIN_TABLE_autocxx_alloc_autocxx_wrapper_0x41de0a58dea699b5;
-  return INPUT_PLUGIN_TABLE_autocxx_alloc_autocxx_wrapper_0x41de0a58dea699b5$();
+::INPUT_PLUGIN_TABLE *cxxbridge1$INPUT_PLUGIN_TABLE_autocxx_alloc_autocxx_wrapper_0xbb8831896a18b3ba() noexcept {
+  ::INPUT_PLUGIN_TABLE *(*INPUT_PLUGIN_TABLE_autocxx_alloc_autocxx_wrapper_0xbb8831896a18b3ba$)() = ::INPUT_PLUGIN_TABLE_autocxx_alloc_autocxx_wrapper_0xbb8831896a18b3ba;
+  return INPUT_PLUGIN_TABLE_autocxx_alloc_autocxx_wrapper_0xbb8831896a18b3ba$();
 }
 
-void cxxbridge1$INPUT_PLUGIN_TABLE_autocxx_free_autocxx_wrapper_0x41de0a58dea699b5(::INPUT_PLUGIN_TABLE *arg0) noexcept {
-  void (*INPUT_PLUGIN_TABLE_autocxx_free_autocxx_wrapper_0x41de0a58dea699b5$)(::INPUT_PLUGIN_TABLE *) = ::INPUT_PLUGIN_TABLE_autocxx_free_autocxx_wrapper_0x41de0a58dea699b5;
-  INPUT_PLUGIN_TABLE_autocxx_free_autocxx_wrapper_0x41de0a58dea699b5$(arg0);
+void cxxbridge1$INPUT_PLUGIN_TABLE_autocxx_free_autocxx_wrapper_0xbb8831896a18b3ba(::INPUT_PLUGIN_TABLE *arg0) noexcept {
+  void (*INPUT_PLUGIN_TABLE_autocxx_free_autocxx_wrapper_0xbb8831896a18b3ba$)(::INPUT_PLUGIN_TABLE *) = ::INPUT_PLUGIN_TABLE_autocxx_free_autocxx_wrapper_0xbb8831896a18b3ba;
+  INPUT_PLUGIN_TABLE_autocxx_free_autocxx_wrapper_0xbb8831896a18b3ba$(arg0);
 }
 
-void cxxbridge1$INPUT_INFO_new_synthetic_move_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(::INPUT_INFO *autocxx_gen_this, ::INPUT_INFO *other) noexcept {
-  void (*INPUT_INFO_new_synthetic_move_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$)(::INPUT_INFO *, ::INPUT_INFO *) = ::INPUT_INFO_new_synthetic_move_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5;
-  INPUT_INFO_new_synthetic_move_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$(autocxx_gen_this, other);
+void cxxbridge1$INPUT_INFO_new_autocxx_autocxx_wrapper_0xbb8831896a18b3ba(::INPUT_INFO *autocxx_gen_this) noexcept {
+  void (*INPUT_INFO_new_autocxx_autocxx_wrapper_0xbb8831896a18b3ba$)(::INPUT_INFO *) = ::INPUT_INFO_new_autocxx_autocxx_wrapper_0xbb8831896a18b3ba;
+  INPUT_INFO_new_autocxx_autocxx_wrapper_0xbb8831896a18b3ba$(autocxx_gen_this);
 }
 
-void cxxbridge1$INPUT_INFO_new_synthetic_const_copy_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(::INPUT_INFO *autocxx_gen_this, ::INPUT_INFO const &other) noexcept {
-  void (*INPUT_INFO_new_synthetic_const_copy_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$)(::INPUT_INFO *, ::INPUT_INFO const &) = ::INPUT_INFO_new_synthetic_const_copy_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5;
-  INPUT_INFO_new_synthetic_const_copy_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$(autocxx_gen_this, other);
+void cxxbridge1$INPUT_INFO_new_synthetic_move_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(::INPUT_INFO *autocxx_gen_this, ::INPUT_INFO *other) noexcept {
+  void (*INPUT_INFO_new_synthetic_move_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$)(::INPUT_INFO *, ::INPUT_INFO *) = ::INPUT_INFO_new_synthetic_move_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba;
+  INPUT_INFO_new_synthetic_move_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$(autocxx_gen_this, other);
 }
 
-void cxxbridge1$INPUT_INFO_synthetic_destructor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(::INPUT_INFO *autocxx_gen_this) noexcept {
-  void (*INPUT_INFO_synthetic_destructor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$)(::INPUT_INFO *) = ::INPUT_INFO_synthetic_destructor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5;
-  INPUT_INFO_synthetic_destructor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$(autocxx_gen_this);
+void cxxbridge1$INPUT_INFO_new_synthetic_const_copy_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(::INPUT_INFO *autocxx_gen_this, ::INPUT_INFO const &other) noexcept {
+  void (*INPUT_INFO_new_synthetic_const_copy_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$)(::INPUT_INFO *, ::INPUT_INFO const &) = ::INPUT_INFO_new_synthetic_const_copy_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba;
+  INPUT_INFO_new_synthetic_const_copy_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$(autocxx_gen_this, other);
 }
 
-void cxxbridge1$INPUT_PLUGIN_TABLE_new_synthetic_move_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(::INPUT_PLUGIN_TABLE *autocxx_gen_this, ::INPUT_PLUGIN_TABLE *other) noexcept {
-  void (*INPUT_PLUGIN_TABLE_new_synthetic_move_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$)(::INPUT_PLUGIN_TABLE *, ::INPUT_PLUGIN_TABLE *) = ::INPUT_PLUGIN_TABLE_new_synthetic_move_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5;
-  INPUT_PLUGIN_TABLE_new_synthetic_move_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$(autocxx_gen_this, other);
+void cxxbridge1$INPUT_INFO_synthetic_destructor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(::INPUT_INFO *autocxx_gen_this) noexcept {
+  void (*INPUT_INFO_synthetic_destructor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$)(::INPUT_INFO *) = ::INPUT_INFO_synthetic_destructor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba;
+  INPUT_INFO_synthetic_destructor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$(autocxx_gen_this);
 }
 
-void cxxbridge1$INPUT_PLUGIN_TABLE_new_synthetic_const_copy_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(::INPUT_PLUGIN_TABLE *autocxx_gen_this, ::INPUT_PLUGIN_TABLE const &other) noexcept {
-  void (*INPUT_PLUGIN_TABLE_new_synthetic_const_copy_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$)(::INPUT_PLUGIN_TABLE *, ::INPUT_PLUGIN_TABLE const &) = ::INPUT_PLUGIN_TABLE_new_synthetic_const_copy_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5;
-  INPUT_PLUGIN_TABLE_new_synthetic_const_copy_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$(autocxx_gen_this, other);
+void cxxbridge1$INPUT_PLUGIN_TABLE_new_synthetic_move_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(::INPUT_PLUGIN_TABLE *autocxx_gen_this, ::INPUT_PLUGIN_TABLE *other) noexcept {
+  void (*INPUT_PLUGIN_TABLE_new_synthetic_move_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$)(::INPUT_PLUGIN_TABLE *, ::INPUT_PLUGIN_TABLE *) = ::INPUT_PLUGIN_TABLE_new_synthetic_move_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba;
+  INPUT_PLUGIN_TABLE_new_synthetic_move_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$(autocxx_gen_this, other);
 }
 
-void cxxbridge1$INPUT_PLUGIN_TABLE_synthetic_destructor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(::INPUT_PLUGIN_TABLE *autocxx_gen_this) noexcept {
-  void (*INPUT_PLUGIN_TABLE_synthetic_destructor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$)(::INPUT_PLUGIN_TABLE *) = ::INPUT_PLUGIN_TABLE_synthetic_destructor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5;
-  INPUT_PLUGIN_TABLE_synthetic_destructor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5$(autocxx_gen_this);
+void cxxbridge1$INPUT_PLUGIN_TABLE_new_synthetic_const_copy_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(::INPUT_PLUGIN_TABLE *autocxx_gen_this, ::INPUT_PLUGIN_TABLE const &other) noexcept {
+  void (*INPUT_PLUGIN_TABLE_new_synthetic_const_copy_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$)(::INPUT_PLUGIN_TABLE *, ::INPUT_PLUGIN_TABLE const &) = ::INPUT_PLUGIN_TABLE_new_synthetic_const_copy_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba;
+  INPUT_PLUGIN_TABLE_new_synthetic_const_copy_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$(autocxx_gen_this, other);
+}
+
+void cxxbridge1$INPUT_PLUGIN_TABLE_synthetic_destructor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(::INPUT_PLUGIN_TABLE *autocxx_gen_this) noexcept {
+  void (*INPUT_PLUGIN_TABLE_synthetic_destructor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$)(::INPUT_PLUGIN_TABLE *) = ::INPUT_PLUGIN_TABLE_synthetic_destructor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba;
+  INPUT_PLUGIN_TABLE_synthetic_destructor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba$(autocxx_gen_this);
 }
 
 static_assert(::rust::detail::is_complete<::INPUT_INFO>::value, "definition of INPUT_INFO is required");

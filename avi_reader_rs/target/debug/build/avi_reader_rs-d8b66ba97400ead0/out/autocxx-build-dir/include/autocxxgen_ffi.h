@@ -40,15 +40,16 @@ template <typename T> T *new_appropriately() {
 
 typedef void c_void;
 
-inline std::unique_ptr<std::string> autocxx_make_string_0x41de0a58dea699b5(::rust::Str str) { return std::make_unique<std::string>(std::string(str)); }
-inline INPUT_INFO* INPUT_INFO_autocxx_alloc_autocxx_wrapper_0x41de0a58dea699b5()  { return new_appropriately<INPUT_INFO>();; }
-inline void INPUT_INFO_autocxx_free_autocxx_wrapper_0x41de0a58dea699b5(INPUT_INFO* arg0)  { delete_appropriately<INPUT_INFO>(arg0);; }
-inline INPUT_PLUGIN_TABLE* INPUT_PLUGIN_TABLE_autocxx_alloc_autocxx_wrapper_0x41de0a58dea699b5()  { return new_appropriately<INPUT_PLUGIN_TABLE>();; }
-inline void INPUT_PLUGIN_TABLE_autocxx_free_autocxx_wrapper_0x41de0a58dea699b5(INPUT_PLUGIN_TABLE* arg0)  { delete_appropriately<INPUT_PLUGIN_TABLE>(arg0);; }
-inline void INPUT_INFO_new_synthetic_move_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(INPUT_INFO* autocxx_gen_this, INPUT_INFO* arg1)  { new (autocxx_gen_this) INPUT_INFO(std::move(*arg1)); }
-inline void INPUT_INFO_new_synthetic_const_copy_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(INPUT_INFO* autocxx_gen_this, const INPUT_INFO& arg1)  { new (autocxx_gen_this) INPUT_INFO(arg1); }
-inline void INPUT_INFO_synthetic_destructor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(INPUT_INFO* arg0)  { arg0->INPUT_INFO::~INPUT_INFO(); }
-inline void INPUT_PLUGIN_TABLE_new_synthetic_move_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(INPUT_PLUGIN_TABLE* autocxx_gen_this, INPUT_PLUGIN_TABLE* arg1)  { new (autocxx_gen_this) INPUT_PLUGIN_TABLE(std::move(*arg1)); }
-inline void INPUT_PLUGIN_TABLE_new_synthetic_const_copy_ctor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(INPUT_PLUGIN_TABLE* autocxx_gen_this, const INPUT_PLUGIN_TABLE& arg1)  { new (autocxx_gen_this) INPUT_PLUGIN_TABLE(arg1); }
-inline void INPUT_PLUGIN_TABLE_synthetic_destructor_0x41de0a58dea699b5_autocxx_wrapper_0x41de0a58dea699b5(INPUT_PLUGIN_TABLE* arg0)  { arg0->INPUT_PLUGIN_TABLE::~INPUT_PLUGIN_TABLE(); }
+inline std::unique_ptr<std::string> autocxx_make_string_0xbb8831896a18b3ba(::rust::Str str) { return std::make_unique<std::string>(std::string(str)); }
+inline INPUT_INFO* INPUT_INFO_autocxx_alloc_autocxx_wrapper_0xbb8831896a18b3ba()  { return new_appropriately<INPUT_INFO>();; }
+inline void INPUT_INFO_autocxx_free_autocxx_wrapper_0xbb8831896a18b3ba(INPUT_INFO* arg0)  { delete_appropriately<INPUT_INFO>(arg0);; }
+inline INPUT_PLUGIN_TABLE* INPUT_PLUGIN_TABLE_autocxx_alloc_autocxx_wrapper_0xbb8831896a18b3ba()  { return new_appropriately<INPUT_PLUGIN_TABLE>();; }
+inline void INPUT_PLUGIN_TABLE_autocxx_free_autocxx_wrapper_0xbb8831896a18b3ba(INPUT_PLUGIN_TABLE* arg0)  { delete_appropriately<INPUT_PLUGIN_TABLE>(arg0);; }
+inline void INPUT_INFO_new_autocxx_autocxx_wrapper_0xbb8831896a18b3ba(INPUT_INFO* autocxx_gen_this)  { new (autocxx_gen_this) INPUT_INFO(); }
+inline void INPUT_INFO_new_synthetic_move_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(INPUT_INFO* autocxx_gen_this, INPUT_INFO* arg1)  { new (autocxx_gen_this) INPUT_INFO(std::move(*arg1)); }
+inline void INPUT_INFO_new_synthetic_const_copy_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(INPUT_INFO* autocxx_gen_this, const INPUT_INFO& arg1)  { new (autocxx_gen_this) INPUT_INFO(arg1); }
+inline void INPUT_INFO_synthetic_destructor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(INPUT_INFO* arg0)  { arg0->INPUT_INFO::~INPUT_INFO(); }
+inline void INPUT_PLUGIN_TABLE_new_synthetic_move_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(INPUT_PLUGIN_TABLE* autocxx_gen_this, INPUT_PLUGIN_TABLE* arg1)  { new (autocxx_gen_this) INPUT_PLUGIN_TABLE(std::move(*arg1)); }
+inline void INPUT_PLUGIN_TABLE_new_synthetic_const_copy_ctor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(INPUT_PLUGIN_TABLE* autocxx_gen_this, const INPUT_PLUGIN_TABLE& arg1)  { new (autocxx_gen_this) INPUT_PLUGIN_TABLE(arg1); }
+inline void INPUT_PLUGIN_TABLE_synthetic_destructor_0xbb8831896a18b3ba_autocxx_wrapper_0xbb8831896a18b3ba(INPUT_PLUGIN_TABLE* arg0)  { arg0->INPUT_PLUGIN_TABLE::~INPUT_PLUGIN_TABLE(); }
 #endif // __AUTOCXXGEN_H__
